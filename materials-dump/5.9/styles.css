@@ -1,0 +1,21 @@
+* {
+    color: purple;
+    background-color: aqua;
+}
+
+.box-model {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    padding: 50px;
+    border: 5px solid red;
+    margin: 15px;
+}
+
+.another-p {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;
+    display: inline;
+}

@@ -1,0 +1,56 @@
+.button p {
+    color: white;
+}
+
+.paragraph {
+    background-color: gray;
+    font-weight: 700;
+}
+
+#i-am-orange {
+    color: orange;
+}
+
+.button {
+    background-color: royalblue;
+    border-radius: 8px;
+    border: 1px solid gray;
+    text-align: center;
+    width: 100px;
+    color: black
+}
+
+
+.button>p {
+    color: red;
+}
+
+
+
+p {
+    color: bisque;
+}
+
+
+
+
+.b.a {
+
+}
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+a:hover {
+
+}
+
+.button:hover {
+    background-color: white;
+}
+
+
+
+

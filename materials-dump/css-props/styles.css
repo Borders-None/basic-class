@@ -1,0 +1,38 @@
+html {
+    background-color: gray;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+    background-color: cyan;
+}
+
+ul {
+    text-align: center;
+    background-color: brown;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.section-1 {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 750px;
+    /*margin: auto;*/
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    width: 500px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 8px 0;
+
+    padding: 5px;
+    border-radius: 8px;
+}
+
+label, legend {
+    font : .8em "typewriter", sans-serif;
+}
+
+input[type = number] {
+    border-color: red;
+}
+
+input[type = date] {
+    width: 300px;
+}
+
+input:hover, select:hover {
+    background: rgba(0,0,0,.2);
+}
+
+select {
+    cursor: pointer;
+}
+
+fieldset {
+    border-radius: 8px;
+    border-color: #F8F8F8;
+}
+
+fieldset > label, fieldset > input {
+    cursor: pointer;
+}
+
+input[type = submit] {
+    cursor: pointer
+}

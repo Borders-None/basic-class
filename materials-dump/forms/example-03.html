@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Radio Buttons</h2>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML" checked>
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+    </form>
+
+    <h2>Checkboxes</h2>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+    </form>
+
+    <h2>Multiple Input Groups</h2>
+    <form>
+        <fieldset id="group1">
+            <input type="radio" value="value1" name="group1" id="group-1-option-1">
+            <label for="group-1-option-1">Option 1</label><br>
+
+            <input type="radio" value="value1" name="group1" id="group-1-option-2">
+            <label for="group-1-option-2">Option 2</label><br>
+        </fieldset>
+        
+        <fieldset id="group2">
+            <input type="radio" value="value1" name="group2" id="group-2-option-1">
+            <label for="group-2-option-1">Option 1</label><br>
+
+            <input type="radio" value="value1" name="group2" id="group-2-option-2">
+            <label for="group-2-option-2">Option 2</label><br>
+
+            <input type="radio" value="value1" name="group2" id="group-2-option-3">
+            <label for="group-2-option-3">Option 3</label><br>
+        </fieldset>
+    </form>
+</body>
+</html>

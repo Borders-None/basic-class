@@ -1,0 +1,16 @@
+- classes
+    - I can have multiple elements with the same class
+-ids
+    - Only ONE element with the ids
+
+- We can write CSS that is more specific than other CSS
+    - With the combination of:
+        - classes, nested selectors, and IDS
+
+
+1. Find all selectors that apply to the element
+2. Find the selector(s) with the highest specificity
+3. If there is only 1 selector with the highest specificity
+    - This is the selector that is going to apply its styling
+4. Else 
+    - Pick the selector that is the lowest in the CSS file

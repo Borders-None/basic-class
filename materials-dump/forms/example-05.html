@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="styled-input.css">
+</head>
+<body>
+    <h2>Submitting data</h2>
+    <form action="index.html">
+        <label for="first-name-input">First Name</label><br>
+        <input type="text" name="firstName" id="first-name-input"><br>
+
+        <label for="age-field">Age</label><br>
+        <input type="number" name="age" id="age-field" min="0" max="150" step="1"><br>
+
+        <label for="birthday">Date of Birth:</label><br>
+        <input type="date" id="birthday" name="dateOfBirth"><br>
+
+        <label for="favorite-animal-input">Favorite animal:</label><br>
+        <select name="favoriteAnimal" id="favorite-animal-input">
+            <option value="cats">Cats</option>
+            <option value="dogs" selected>Dogs</option>
+            <option value="fishes">Fishes</option>
+            <option value="cockroach">Cockroaches</option>
+        </select><br>
+
+        <fieldset id="payment-method">
+            <legend>Choose a payment method</legend>
+
+            <input type="radio" value="cash" name="payment-method" id="payment-method-cash">
+            <label for="payment-method-cash">Cash</label><br>
+
+            <input type="radio" value="card" name="payment-method" id="payment-method-card" checked>
+            <label for="payment-method-card">Credit card</label><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Data">
+    </form>
+</body>
+</html>
