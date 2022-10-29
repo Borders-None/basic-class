@@ -100,4 +100,4 @@ lists      | b
 <br>[Block elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
 - - - -
 <br>
-[Homework](../homework/README.md)
+[Homework](/../homework/README.md)
