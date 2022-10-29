@@ -98,6 +98,3 @@ lists      | b
 <br>Read more:
 <br>[Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)
 <br>[Block elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
-- - - -
-<br>
-[Homework](/02-basics/homework/README.md)
