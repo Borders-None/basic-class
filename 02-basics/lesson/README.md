@@ -90,9 +90,9 @@ Block      | Inline
 paragraph  | em
 headings   | i
 lists      | b
-           | strong
-           | span
-           | anchor
+&nbsp;     | strong
+&nbsp;     | span
+&nbsp;     | anchor
 
 
 <br>Read more:
