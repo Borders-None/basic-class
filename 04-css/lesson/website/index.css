@@ -1,0 +1,81 @@
+/*
+    This css rule is used to make every text inside the website to be red
+*/
+p {
+    color: red;
+    background-color: green;
+}
+
+h1, h2, h3 {
+    color: black
+}
+
+h2 {
+    color: black
+}
+
+h3 {
+    color: black
+}
+
+h1 h2 h3 {
+    color: black
+}
+
+a {
+    text-decoration: double;
+    font-size: 24px;
+    color: blue;
+}
+
+ol {
+    background-color: pink;
+}
+
+ol:hover {
+    background-color: black;
+}
+
+ol li {
+    font-size: 10px;
+}
+
+ol li:nth-child(odd) {
+    background-color: blue;
+}
+
+ul {
+    background-color: brown;
+}
+div p {
+    background-color: green;
+    height: 2em;
+}
+
+div span {
+    background-color: blueviolet;
+    height: 0.5em;
+}
+
+h2 {
+    background-color: red;
+    height: 20vh;
+}
+
+.em-container {
+    font-size: 40px;
+}
+
+.bigger {
+    width: 4em;
+    height: 4em;
+
+    border: 1px solid red
+}
+
+.smaller {
+    width: 2em;
+    height: 2em;
+
+    border: 1px solid green;
+}
