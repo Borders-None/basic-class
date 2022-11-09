@@ -1,4 +1,5 @@
 #Block vs inline elements
+
 As we mentioned before block element occupy entire horizontal space of its parent container and vertical space equal to height of its content. It creates a block which pushes other elements to new line.
 
 On the other hand, inline elements occupy only space which is enough for its content. They don't break the flow of the content. Therefore two inline elements will usually be next to each other (if there is enough horizontal space for both of them of course).
