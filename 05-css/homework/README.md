@@ -1,4 +1,4 @@
-#Homework
+# Homework
 
 * For practice try to make list (ordered or unordered) with some background. After that try to make a couple of list items, add different classes to them, and then use class selectors to apply different colors to them (you can try change text color and background color).
 

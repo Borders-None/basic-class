@@ -1,5 +1,4 @@
-#Block vs inline elements
-
+# Block vs inline elements
 As we mentioned before block element occupy entire horizontal space of its parent container and vertical space equal to height of its content. It creates a block which pushes other elements to new line.
 
 On the other hand, inline elements occupy only space which is enough for its content. They don't break the flow of the content. Therefore two inline elements will usually be next to each other (if there is enough horizontal space for both of them of course).
@@ -42,14 +41,14 @@ Tip: *To apply border to your element it is enough to add `border-width` style t
 [More info](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 - - - -
 
-#div and span
+# div and span
 Div and span are generic HTML containers which can have any content inside. Because of that they don't have semantic meaning and although they are widely used, they should be used as last resort. For example, if you plan only to have text inside one container, it is better to use <p\> than <div\>.   
 There is one difference between div and span. Div is *block* element and span is *inline* element.
 
 [More info](https://www.geeksforgeeks.org/difference-between-div-and-span-tag-in-html/)
 - - - -
 
-#Width and Height
+# Width and Height
 
 Width and height are CSS properties which control width and heigh of some element.
 They can be expressed in different units, e.g. px, em, %.
@@ -58,7 +57,7 @@ One thing you should be aware of is, width and height work only on block element
 [More info](https://www.w3schools.com/css/css_dimension.asp)
 - - - -
 
-#Box sizing - content boxes and border boxes
+# Box sizing - content boxes and border boxes
 box-sizing is css property which changes how box model is calculated in relation to width and height.
 
 content-box is default value of box-sizing. That means, with content box, margin, padding and border will be **added** to width and height of element.
@@ -110,7 +109,7 @@ would make it 100x100px, since the padding/border are now taken into account whe
 [More info](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 - - - -
 
-#Universal selector
+# Universal selector
 Universal selector is special type of selector in css. It is used by typing * and then css style, e.g.
 <pre>
 * {
@@ -123,7 +122,7 @@ When you used universal selector it matches every HTML element, meaning that sty
 [More info](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
 - - - -
 
-#class selector
+# class selector
 Class selector matches elements based on their *class* attribute. You can use class selector by first adding some class on element, and then using that class in stylesheet. You can use class selector in stylesheet with dot(.) character. 
 Tip: *One thing you should be aware of is, you are allowed to use same class on multiple elements, as opposed to* **id** *which you can use only on single element*. For example:
 
@@ -136,7 +135,7 @@ Tip: *One thing you should be aware of is, you are allowed to use same class on 
 ```
 [More info](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
 - - - -
-#Id selectors
+# id selectors
 Id selector matches single element based on its *id* attribute. You can use id similar as you use class selector, but in css stylesheet instead of using dot character, you need to use # character.
 Tip: *You can use one id on single element*. For example:
 ```html
