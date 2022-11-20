@@ -1,0 +1,24 @@
+# The position property
+CSS position property:
+    - default value is static
+
+Elements are positioned if the value of their position property is not static
+
+Relative positioning
+    - moves elements around relative to where they would normally appear in the static flow of the page
+
+We move the element by defining left, right, top, bottom values
+    - negative values can also be used
+
+Absolute positioning
+    - “Absolute positioning” is just like relative positioning, but the offset is relative to the entire browser window instead of the original position of the element
+    - It completely removes an element from the normal flow of the page
+    - Coordinates for absolute elements are always relative to the closest container that is a positioned element
+
+
+Fixed positioning
+    - similar to absolute positioning
+    - fixed elements don't scroll with the rest of the page
+
+Sticky positioning:
+    - a mix of relative and fixed: https://developer.mozilla.org/en-US/docs/Web/CSS/position
