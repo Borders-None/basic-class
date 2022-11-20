@@ -26,7 +26,7 @@ Specificity is the algorithm that the browser uses to decide which property valu
 
 ### Example 2
 
-Below, we have two rules that could apply to the <h2> element. The <h2> content below ends up being colored red because the class selector `main-heading` gives its rule a higher specificity. So even though the rule with the <h2> element selector appears further down in the source order, the one with the higher specificity, defined using the class selector, will be applied.
+Below, we have two rules that could apply to the h2 element. The h2 content below ends up being colored red because the class selector `main-heading` gives its rule a higher specificity. So even though the rule with the h2 element selector appears further down in the source order, the one with the higher specificity, defined using the class selector, will be applied.
 
 As we can see, a class selector has more weight than an element selector, so the properties defined in the class style block will override those applied to the element style block.
 
