@@ -1,7 +1,29 @@
+.another-heading {
+    color: purple;
+}
+
 .main-heading { 
     color: red; 
 }
+
+
+
+#heading {
+    color: green;
+}
         
-h2 { 
+h1 { 
     color: blue; 
+}
+
+p {
+    color: yellow;
+}
+
+h1 > p::first-letter {
+    color:red;
+}
+
+h1 p {
+
 }

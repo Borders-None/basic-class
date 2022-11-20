@@ -3,5 +3,18 @@ body {
 }
 
 span {
-    color: black;
+    color: unset;
+}
+
+.half {
+    background-color: green;
+    height: 100px;
+    width: 50%;
+    border: 3px solid black;;
+}
+
+.regular {
+    height: 50px;
+    width: 50%;
+    background-color: red;
 }
