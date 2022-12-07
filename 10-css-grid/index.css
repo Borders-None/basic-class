@@ -1,0 +1,26 @@
+.container {
+    display: inline-grid;
+    border: 1px solid black;
+
+
+    grid-template-columns: [col-line-1] 100px [col-line-2] 100px [col-line-3] 100px [col-line-4];
+    grid-template-rows: [row-line-1] 100px [row-line-2] 100px [row-line-3] 100px [row-line-4];
+}
+
+.item-1 {
+    background-color: green;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.item-2 {
+    background-color: red;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
